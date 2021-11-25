@@ -35,6 +35,7 @@ spec:
     metadata:
       labels:
         name: coffee-shop-database
+        app: coffee-shop
     spec:
       volumes:
         - name: coffee-shop-database-data
