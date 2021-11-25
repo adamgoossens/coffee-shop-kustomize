@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
+    argocd.argoproj.io/sync-wave: "2"
     app.openshift.io/connects-to: '["coffee-shop-database",{"apiVersion":"apps/v1","kind":"Deployment","name":"coffee-shop-database"},{"apiVersion":"serving.knative.dev/v1","kind":"Service","name":"barista"},{"apiVersion":"apps/v1","kind":"Deployment","name":"coffee-shop-database"}]'
   labels:
     app.kubernetes.io/component: coffee-shop
