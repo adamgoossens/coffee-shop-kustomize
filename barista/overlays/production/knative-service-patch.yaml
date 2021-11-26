@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
       - name: user-container
-        image: quay.io/agoossen/barista:prod-2021-11-26-06-43-41
+        image: quay.io/agoossen/barista:prod-2021-11-26-07-12-23
 
