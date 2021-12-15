@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
       - name: coffee-shop
-        image: quay.io/agoossen/coffee-shop:prod-2021-12-15-07-08-58
+        image: quay.io/agoossen/coffee-shop:prod-2021-12-15-07-23-22
 
